@@ -1,0 +1,8 @@
+type Emotes {
+  url: String!
+  name: String!
+}
+
+type Query {
+  allEmotes: [Emotes!]!
+}
